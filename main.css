@@ -1,0 +1,106 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+
+/* Positioning */
+
+.profile-card {
+  width: 30rem;
+  max-width: calc(100vw - .625rem);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/01.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links, .content {
+  text-align: center;
+  letter-spacing: .188rem;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile-image, .name-headline {
+  display: inline-block;
+  padding: .313rem;
+}
+
+
+
+/* Profile-Image */
+
+img {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  padding: .063rem;
+  background-color: #666;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+.profile-image {
+  margin-top: .938rem;
+}
+
+
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.social-icon{
+  filter: grayscale(100%);
+}
+
+
+
+/* Paddings */
+
+.head, .about {
+  margin-bottom: 5%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+.links {
+  padding: 10%;
+}
+
+
+
+/* Profile-card */
+
+.profile-card {
+  background-color: hsla(360, 100%, 100%, 0.76);
+  border-radius: 1.875rem;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
