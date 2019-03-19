@@ -15,6 +15,7 @@
   width: 30rem;
   max-width: calc(100vw - .625rem);
   font-family: 'Cormorant Garamond', serif;
+  margin: auto;
 }
 
 body {
@@ -37,8 +38,15 @@ body {
 }
 
 .profile-image, .name-headline {
-  display: inline-block;
-  padding: .313rem;
+    padding: .313rem;
+  }
+
+
+@media (min-width: 768px) {
+  .profile-image, .name-headline {
+    display: inline-block;
+    padding: .313rem;
+  }
 }
 
 
